@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OYO – Booking Details</title>
+    <link rel="icon"
+    href="https://res.cloudinary.com/dewymrwzf/image/upload/v1761753470/oyo-rooms-logo-png_seeklogo-443633_ce3iqm.png"
+    type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="booking.css" />
+  </head>
+  <body>
+    <header class="bk-header">
+      <div class="wrap">
+        <div class="logo"><a href="index.html" style="text-decoration: none; color: black;">OYO</a></div>
+        <div class="crumbs">
+          <a href="#" class="back"><i class="ri-arrow-left-s-line"></i></a>
+          <span>Modify your booking</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap bk-layout">
+      <section class="bk-left">
+        <div class="notice">
+          <span class="icon">🎉</span>
+          <span>Yay! you just saved ₹1380 on this booking!</span>
+        </div>
+
+        <div class="card">
+          <div class="card-head">
+            <span class="step">1</span>
+            <h2>Enter your details</h2>
+          </div>
+          <p class="muted">We will use these details to share your booking information</p>
+
+          <form class="form">
+            <div class="grid2">
+              <label class="field">
+                <span>Full Name</span>
+                <input type="text" placeholder="Enter first and last name" />
+              </label>
+              <label class="field">
+                <span>Email Address</span>
+                <input type="email" placeholder="name@abc.com" />
+              </label>
+            </div>
+            <div class="grid2">
+              <label class="field phone">
+                <span>Mobile Number</span>
+                <div class="phone-row">
+                  <select class="cc">
+                    <option selected>+91</option>
+                    <option>+1</option>
+                    <option>+44</option>
+                  </select>
+                  <input type="tel" placeholder="e.g. 1234567890" />
+                </div>
+              </label>
+              <div class="send">
+                <button class="btn disabled" type="button">Send passcode</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <aside class="bk-right">
+        <div class="summary">
+          <div class="hotel">
+            <div class="info">
+              <h3>Super Collection O Sathyabama University Sithalapakkam Formerly Srinivasa Residency</h3>
+              <div class="rating"><span class="score">4.6</span> <span class="grey">320 Ratings</span> · <span class="grey">Excellent</span></div>
+            </div>
+            <img class="thumb" src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=300&auto=format&fit=crop" alt="thumb" />
+          </div>
+
+          <ul class="facts">
+            <li><i class="ri-calendar-line"></i>Fri, 31 Oct – Sat, 1 Nov</li>
+            <li><i class="ri-user-3-line"></i>1 Room, 1 Guest</li>
+            <li><i class="ri-vip-diamond-line"></i>Classic</li>
+          </ul>
+
+          <div class="price-block">
+            <div class="row"><span>Room price for 1 Night X 1 Guest</span><span>₹4273</span></div>
+            <div class="row"><span>Instant discount</span><span>-₹1764</span></div>
+            <div class="row"><span>55% Coupon Discount</span><span>-₹1380</span></div>
+          </div>
+
+          <div class="payable">
+            <span>Payable Amount</span>
+            <span class="amt">₹1129</span>
+          </div>
+
+          <div class="alert"><i class="ri-flashlight-line"></i> 12 people booked this hotel in last 6 hours</div>
+        </div>
+      </aside>
+    </main>
+  </body>
+  </html>
+
+
